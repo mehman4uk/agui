@@ -55,6 +55,9 @@
   border: 0px;
   bottom: 565px;
 }
+.auth__button__primary:hover {
+  background: rgba(43, 117, 238, 1);
+}
 .auth__button__second {
   margin-top: 12px;
   background: rgba(0, 16, 61, 0.06);
@@ -65,6 +68,9 @@
   border-radius: 4px;
   border: 0px;
   bottom: 565px;
+}
+.auth__button__second:hover {
+  background: rgba(0, 16, 61, 0.09);
 }
 .auth__input {
   width: 365px;
