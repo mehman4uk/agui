@@ -1,0 +1,18 @@
+body,
+html {
+  background: #333;
+  max-width: 1920px;
+  -webkit-box-shadow: 0 0 21px rgb(157 163 183 / 75%);
+  box-shadow: 0 0 21px rgb(157 163 183 / 75%);
+}
+
+.statistic {
+  background: linear-gradient(135deg, #937ff5 0%, #735ce6 100%);
+  border-radius: 12px;
+  width: 329px;
+  height: 124px;
+}
+/* .statistic__block {
+}
+.statistic__block__icon {
+} */

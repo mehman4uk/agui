@@ -1,0 +1,81 @@
+.logo {
+  padding: 58px;
+}
+.logo svg {
+  margin: 0 auto;
+}
+.auth {
+  background: #ffffff;
+  box-shadow: 0px 4px 81px rgba(143, 152, 175, 0.25);
+  border-radius: 4px;
+  width: 481px;
+  margin: 0 auto;
+  padding: 58px;
+}
+.auth h1 {
+  font-family: TT Norms Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #1f2041;
+}
+.auth p {
+  font-family: TT Norms Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  align-items: center;
+  text-align: center;
+  color: #526484;
+}
+.auth__input {
+  background: #ffffff;
+  border: 1px solid rgba(0, 16, 61, 0.12);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.auth__button {
+  width: 365px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 0px;
+  bottom: 565px;
+}
+.auth__button__primary {
+  margin-top: 32px;
+  background: #005ff9;
+  color: #fff;
+
+  width: 365px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 0px;
+  bottom: 565px;
+}
+.auth__button__second {
+  margin-top: 12px;
+  background: rgba(0, 16, 61, 0.06);
+  color: rgba(0, 16, 61, 0, 06);
+
+  width: 365px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 0px;
+  bottom: 565px;
+}
+.auth__input {
+  width: 365px;
+  border: 1px solid rgba(0, 16, 61, 0.12);
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 40px;
+}
+.auth__input__text {
+  font-family: TT Norms Pro;
+  color: #526484;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
