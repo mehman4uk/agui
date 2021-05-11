@@ -1,8 +1,6 @@
 .logo {
   padding: 58px;
-}
-.logo svg {
-  margin: 0 auto;
+  text-align: center;
 }
 .auth {
   background: #ffffff;
@@ -78,6 +76,16 @@
   box-sizing: border-box;
   border-radius: 4px;
   height: 40px;
+}
+.auth__input:hover {
+  border: 2px solid rgb(0 95 249);
+}
+.auth__input:active {
+  border: 2px solid rgb(0 95 249);
+}
+.auth__input:focus {
+  border: 2px solid rgb(0 95 249);
+  padding-left: 12px;
 }
 .auth__input__text {
   font-family: TT Norms Pro;

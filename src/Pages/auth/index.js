@@ -1,7 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 import s from "../../Pages/auth/index.module.css";
 // import "../../Components/components.scss";
 
@@ -104,6 +103,21 @@ class Auth extends React.Component {
                   <Button type="reset" bsPrefix={s.auth__button__second}>
                     Восстановить пароль
                   </Button>
+                </Form>
+              </div>
+              <div className={s.theme}>
+                <Form>
+                  <Form.Check
+                    type="switch"
+                    id="custom-switch"
+                    label="Check this switch"
+                  />
+                  <Form.Check
+                    disabled
+                    type="switch"
+                    label="disabled switch"
+                    id="disabled-custom-switch"
+                  />
                 </Form>
               </div>
             </Col>
