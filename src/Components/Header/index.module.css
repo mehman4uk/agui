@@ -1,15 +1,22 @@
 .header {
   background-color: #42526e;
-  margin: 0;
-  padding: 0;
   height: 190px;
   font-family: TT Norms Pro;
+  margin: 0;
+  padding: 0;
+}
+.header__subheader {
+  padding-top: 32px;
 }
 .header__user {
+  float: right;
+}
+.headerlogo svg {
+  float: left;
 }
 .header__username {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   display: flex;
